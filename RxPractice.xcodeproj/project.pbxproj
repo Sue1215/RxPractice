@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		115115B0D1163E16CE9DD225 /* Pods_RxPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59C7C5D2EBBAC16522B871C8 /* Pods_RxPractice.framework */; };
 		BC75F824225D8F9400666C70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC75F823225D8F9400666C70 /* AppDelegate.swift */; };
 		BC75F826225D8F9400666C70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC75F825225D8F9400666C70 /* ViewController.swift */; };
-		BC75F829225D8F9400666C70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC75F827225D8F9400666C70 /* Main.storyboard */; };
 		BC75F82B225D8F9400666C70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC75F82A225D8F9400666C70 /* Assets.xcassets */; };
 		BC75F82E225D8F9400666C70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC75F82C225D8F9400666C70 /* LaunchScreen.storyboard */; };
 		BC75F839225D8F9400666C70 /* RxPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC75F838225D8F9400666C70 /* RxPracticeTests.swift */; };
 		BC75F844225D8F9400666C70 /* RxPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC75F843225D8F9400666C70 /* RxPracticeUITests.swift */; };
+		BC75F852225D998100666C70 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC75F851225D998100666C70 /* ViewController.xib */; };
+		BC75F854225DA09C00666C70 /* CounterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC75F853225DA09C00666C70 /* CounterViewModel.swift */; };
+		BC75F856225DB24400666C70 /* RxViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC75F855225DB24400666C70 /* RxViewController.xib */; };
+		BC75F858225DB27400666C70 /* RxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC75F857225DB27400666C70 /* RxViewController.swift */; };
+		BC75F85A225DBCF100666C70 /* RxViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC75F859225DBCF100666C70 /* RxViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		253EB118C10A2DAD069514C0 /* Pods-RxPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxPractice.release.xcconfig"; path = "Target Support Files/Pods-RxPractice/Pods-RxPractice.release.xcconfig"; sourceTree = "<group>"; };
+		59C7C5D2EBBAC16522B871C8 /* Pods_RxPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC75F820225D8F9400666C70 /* RxPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC75F823225D8F9400666C70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC75F825225D8F9400666C70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BC75F828225D8F9400666C70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC75F82A225D8F9400666C70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC75F82D225D8F9400666C70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC75F82F225D8F9400666C70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +53,12 @@
 		BC75F83F225D8F9400666C70 /* RxPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC75F843225D8F9400666C70 /* RxPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxPracticeUITests.swift; sourceTree = "<group>"; };
 		BC75F845225D8F9400666C70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC75F851225D998100666C70 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		BC75F853225DA09C00666C70 /* CounterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewModel.swift; sourceTree = "<group>"; };
+		BC75F855225DB24400666C70 /* RxViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxViewController.xib; sourceTree = "<group>"; };
+		BC75F857225DB27400666C70 /* RxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxViewController.swift; sourceTree = "<group>"; };
+		BC75F859225DBCF100666C70 /* RxViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxViewModel.swift; sourceTree = "<group>"; };
+		BE7B97E5BD86DB55D1B93CA8 /* Pods-RxPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxPractice.debug.xcconfig"; path = "Target Support Files/Pods-RxPractice/Pods-RxPractice.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				115115B0D1163E16CE9DD225 /* Pods_RxPractice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +87,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		685139D934DD3CDD691D6742 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59C7C5D2EBBAC16522B871C8 /* Pods_RxPractice.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B43C8A252375F9D6AFCEDD48 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE7B97E5BD86DB55D1B93CA8 /* Pods-RxPractice.debug.xcconfig */,
+				253EB118C10A2DAD069514C0 /* Pods-RxPractice.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BC75F817225D8F9400666C70 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +111,8 @@
 				BC75F837225D8F9400666C70 /* RxPracticeTests */,
 				BC75F842225D8F9400666C70 /* RxPracticeUITests */,
 				BC75F821225D8F9400666C70 /* Products */,
+				B43C8A252375F9D6AFCEDD48 /* Pods */,
+				685139D934DD3CDD691D6742 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,8 +130,12 @@
 			isa = PBXGroup;
 			children = (
 				BC75F823225D8F9400666C70 /* AppDelegate.swift */,
+				BC75F851225D998100666C70 /* ViewController.xib */,
 				BC75F825225D8F9400666C70 /* ViewController.swift */,
-				BC75F827225D8F9400666C70 /* Main.storyboard */,
+				BC75F853225DA09C00666C70 /* CounterViewModel.swift */,
+				BC75F855225DB24400666C70 /* RxViewController.xib */,
+				BC75F857225DB27400666C70 /* RxViewController.swift */,
+				BC75F859225DBCF100666C70 /* RxViewModel.swift */,
 				BC75F82A225D8F9400666C70 /* Assets.xcassets */,
 				BC75F82C225D8F9400666C70 /* LaunchScreen.storyboard */,
 				BC75F82F225D8F9400666C70 /* Info.plist */,
@@ -132,9 +168,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC75F848225D8F9400666C70 /* Build configuration list for PBXNativeTarget "RxPractice" */;
 			buildPhases = (
+				AE87178C8FED1A6344491019 /* [CP] Check Pods Manifest.lock */,
 				BC75F81C225D8F9400666C70 /* Sources */,
 				BC75F81D225D8F9400666C70 /* Frameworks */,
 				BC75F81E225D8F9400666C70 /* Resources */,
+				4B87A161CB75A42948BDE2FF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -230,8 +268,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC75F82E225D8F9400666C70 /* LaunchScreen.storyboard in Resources */,
+				BC75F852225D998100666C70 /* ViewController.xib in Resources */,
+				BC75F856225DB24400666C70 /* RxViewController.xib in Resources */,
 				BC75F82B225D8F9400666C70 /* Assets.xcassets in Resources */,
-				BC75F829225D8F9400666C70 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +290,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4B87A161CB75A42948BDE2FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxPractice/Pods-RxPractice-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RxPractice/Pods-RxPractice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE87178C8FED1A6344491019 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxPractice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BC75F81C225D8F9400666C70 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BC75F826225D8F9400666C70 /* ViewController.swift in Sources */,
+				BC75F85A225DBCF100666C70 /* RxViewModel.swift in Sources */,
 				BC75F824225D8F9400666C70 /* AppDelegate.swift in Sources */,
+				BC75F858225DB27400666C70 /* RxViewController.swift in Sources */,
+				BC75F854225DA09C00666C70 /* CounterViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +384,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BC75F827225D8F9400666C70 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BC75F828225D8F9400666C70 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BC75F82C225D8F9400666C70 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -430,6 +513,7 @@
 		};
 		BC75F849225D8F9400666C70 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE7B97E5BD86DB55D1B93CA8 /* Pods-RxPractice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +532,7 @@
 		};
 		BC75F84A225D8F9400666C70 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 253EB118C10A2DAD069514C0 /* Pods-RxPractice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
