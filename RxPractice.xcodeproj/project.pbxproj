@@ -19,6 +19,8 @@
 		BC75F856225DB24400666C70 /* RxViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC75F855225DB24400666C70 /* RxViewController.xib */; };
 		BC75F858225DB27400666C70 /* RxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC75F857225DB27400666C70 /* RxViewController.swift */; };
 		BC75F85A225DBCF100666C70 /* RxViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC75F859225DBCF100666C70 /* RxViewModel.swift */; };
+		BC75F85F22646E3F00666C70 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC75F85E22646E3F00666C70 /* HomeViewController.xib */; };
+		BC75F86322646E8300666C70 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC75F86222646E8300666C70 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		BC75F855225DB24400666C70 /* RxViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxViewController.xib; sourceTree = "<group>"; };
 		BC75F857225DB27400666C70 /* RxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxViewController.swift; sourceTree = "<group>"; };
 		BC75F859225DBCF100666C70 /* RxViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxViewModel.swift; sourceTree = "<group>"; };
+		BC75F85E22646E3F00666C70 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		BC75F86222646E8300666C70 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		BE7B97E5BD86DB55D1B93CA8 /* Pods-RxPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxPractice.debug.xcconfig"; path = "Target Support Files/Pods-RxPractice/Pods-RxPractice.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -136,6 +140,8 @@
 				BC75F855225DB24400666C70 /* RxViewController.xib */,
 				BC75F857225DB27400666C70 /* RxViewController.swift */,
 				BC75F859225DBCF100666C70 /* RxViewModel.swift */,
+				BC75F85E22646E3F00666C70 /* HomeViewController.xib */,
+				BC75F86222646E8300666C70 /* HomeViewController.swift */,
 				BC75F82A225D8F9400666C70 /* Assets.xcassets */,
 				BC75F82C225D8F9400666C70 /* LaunchScreen.storyboard */,
 				BC75F82F225D8F9400666C70 /* Info.plist */,
@@ -269,6 +275,7 @@
 			files = (
 				BC75F82E225D8F9400666C70 /* LaunchScreen.storyboard in Resources */,
 				BC75F852225D998100666C70 /* ViewController.xib in Resources */,
+				BC75F85F22646E3F00666C70 /* HomeViewController.xib in Resources */,
 				BC75F856225DB24400666C70 /* RxViewController.xib in Resources */,
 				BC75F82B225D8F9400666C70 /* Assets.xcassets in Resources */,
 			);
@@ -349,6 +356,7 @@
 				BC75F824225D8F9400666C70 /* AppDelegate.swift in Sources */,
 				BC75F858225DB27400666C70 /* RxViewController.swift in Sources */,
 				BC75F854225DA09C00666C70 /* CounterViewModel.swift in Sources */,
+				BC75F86322646E8300666C70 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
