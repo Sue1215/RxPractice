@@ -35,6 +35,7 @@ class RxViewController: UIViewController {
 
         viewModel.outputs?.counterText
             .drive(countLabel.rx.text)
-            .disposed(by: disposeBag)
+            .disposed(by: disposeBag)               //観測対象から除外する
+
     }
 }

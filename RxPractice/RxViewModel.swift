@@ -10,7 +10,7 @@ import RxSwift
 import RxCocoa
 
 struct CounterViewModelInput {
-    let countUpButton: Observable<Void>
+    let countUpButton: Observable<Void>                 //これで監視される(ボタンだからBool。textとかならStringになる)
     let countDownButton: Observable<Void>
     let countResetButton: Observable<Void>
 }
@@ -35,13 +35,14 @@ class CounterRxViewModel: CounterViewModelType {
         self.outputs = self
         resetCount()
     }
-    
+
+//     ボタンのイベント購読
     func setup(input: CounterViewModelInput) {
         input.countUpButton
-            .subscribe(onNext: { [weak self] in
+            .subscribe(onNext: { [weak self] in              //     デフォルトのイベントを流す。
                 self?.incrementCount()
             })
-            .disposed(by: disposeBag)
+            .disposed(by: disposeBag)                        //     購読解除
         
         input.countDownButton
             .subscribe(onNext: { [weak self] in
@@ -72,7 +73,7 @@ class CounterRxViewModel: CounterViewModelType {
 extension CounterRxViewModel: CounterViewModelOutput {
     var counterText: Driver<String?> {
         return countRelay
-            .map { "Rxパターン:\($0)" }
+            .map { "Rxパターン:\($0)" }                     //受け取った値それぞれに処理を行う
             .asDriver(onErrorJustReturn: nil)
     }
 }
